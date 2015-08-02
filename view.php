@@ -1,7 +1,7 @@
 <?php
 
 $url=$_GET['url'];
-$dir=linonymizer;
+$dir=""; //edit this with yours directory. provide the directory name in " " .If you don't have directory, leave it blank
 $final="http://$_SERVER[HTTP_HOST]/$dir/go.php?url=$url";
 ?>
 <html>
